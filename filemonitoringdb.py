@@ -62,4 +62,6 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         observer.stop()
         print("Done")
+    finally:
+        print("All Done")
     observer.join()
