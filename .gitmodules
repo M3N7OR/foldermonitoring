@@ -1,0 +1,3 @@
+[submodule "flask-fm"]
+	path = flask-fm
+	url = ./flask-fm
