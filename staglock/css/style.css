@@ -77,7 +77,12 @@ h6, .h6 {
 .btn-primary:active {
   background: linear-gradient(25deg, #17ffd3 0%, #d3fc71 95%) !important;
 }
-
+.sticky-top {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Add a background color to avoid transparency issues */
+  z-index: 1; /* Ensure it stays above the scrolling content */
+}
 .btn-primary:hover {
   background: linear-gradient(205deg, #17ffd3 0%, #d3fc71 95%);
   color: #091337;
